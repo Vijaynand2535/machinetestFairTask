@@ -1,0 +1,23 @@
+.fair{
+    background-color: #fff;
+}
+.banner{
+    width: 100%;
+    height: 250px;
+    position: relative;
+    > .bannerimg{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        position: absolute;
+        filter: brightness(0.8);
+       
+    }
+    .info{
+        position: absolute;
+        top: 35%;
+        left: 35%;
+        color: white;
+        text-align: center;
+    }
+}
